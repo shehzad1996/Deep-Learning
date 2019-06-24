@@ -7,8 +7,6 @@ from pandas import DataFrame, concat
 import seaborn as sns
 from datetime import datetime as dt
 
-%matplotlib inline
-import statsmodels as sm
 
 import pandas as pd
 
