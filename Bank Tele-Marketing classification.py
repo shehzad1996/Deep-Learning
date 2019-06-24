@@ -101,7 +101,7 @@ y = dataset.iloc[:,15]
 #sparse Flase output an array not an matrix
 print(dsub.dtypes==object)
 
-#it handes the dummy variable trap 
+#it handles the dummy variable trap 
 #so no need of one hot encoding
 x = pd.get_dummies(x, columns=['job', 'marital','education', 'default','housing','loan','contact', 'poutcome'], drop_first=True)
 del x['date(D-M)']
